@@ -2,7 +2,7 @@
 
 *Object recognition by random binary data lookup: proof of concept*
 
-Performing single-shot Fashion-MNIST objects recognition by lookup over the most different input bit sets of the training data
+Performing single-shot Fashion-MNIST objects recognition by lookup over the most different input bit sets of the training data (out of 28⋅28⋅8 = 6272 bits per training sample)
 
 Same algorithm for QMNIST dataset: https://github.com/Petr-Kovalev/punched-cards-qmnist-poc
 
@@ -68,6 +68,42 @@ Unique input combinations per punched card (descending): {6000, 6000, 6000, 6000
 Training results: 25709 correct recognitions of 60000
 Test results: 4142 correct recognitions of 10000
 
+Punched card bit length: 1024
+
+Global top punched card:
+Unique input combinations per punched card (descending): {6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000: sum 60000}: total sum 60000
+Training results: 23674 correct recognitions of 60000
+Test results: 3840 correct recognitions of 10000
+
+Top punched cards per label:
+Unique input combinations per punched card (descending): {6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000: sum 60000}: total sum 60000
+Training results: 23674 correct recognitions of 60000
+Test results: 3840 correct recognitions of 10000
+
+Punched card bit length: 2048
+
+Global top punched card:
+Unique input combinations per punched card (descending): {6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000: sum 60000}: total sum 60000
+Training results: 24115 correct recognitions of 60000
+Test results: 3898 correct recognitions of 10000
+
+Top punched cards per label:
+Unique input combinations per punched card (descending): {6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000: sum 60000}: total sum 60000
+Training results: 24115 correct recognitions of 60000
+Test results: 3898 correct recognitions of 10000
+
+Punched card bit length: 4096
+
+Global top punched card:
+Unique input combinations per punched card (descending): {6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000: sum 60000}: total sum 60000
+Training results: 24636 correct recognitions of 60000
+Test results: 4008 correct recognitions of 10000
+
+Top punched cards per label:
+Unique input combinations per punched card (descending): {6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000: sum 60000}: total sum 60000
+Training results: 24636 correct recognitions of 60000
+Test results: 4008 correct recognitions of 10000
+
 Press "Enter" to exit the program...
 ```
 
@@ -75,7 +111,7 @@ Press "Enter" to exit the program...
 * Recognition accuracy on a best 512 bit punched card is 41.42%
 * Punched cards per specific label in most cases works better or equal than one (global top) punched card
 * Starting from bit length 32 there are cases when all the inputs per specific label of the punched card are unique
-* Test set accuracy increasing almost linearly with the doubling of the punched card bit length
+* Test set accuracy increasing almost linearly with the doubling of the punched card bit length up to 512. But after that no improvements (due to no punched cards ranking algorithm except max distinct inputs count)
 
 ### Questions to answer:
 * How to rank the punched cards when all the inputs per specific label are unique?
