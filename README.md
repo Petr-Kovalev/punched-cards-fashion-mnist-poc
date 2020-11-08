@@ -6,7 +6,7 @@ Performing single-shot Fashion-MNIST objects recognition by lookup over the most
 
 Same algorithm for QMNIST dataset: https://github.com/Petr-Kovalev/punched-cards-qmnist-poc
 
-Program output:
+### Program output:
 ```
 Punched card bit length: 32
 
@@ -107,11 +107,14 @@ Test results: 4008 correct recognitions of 10000
 Press "Enter" to exit the program...
 ```
 
-### Interesting results:
+### Best result chart:
+![Preview1](./docs/images/chart.png)
+
+### Interesting facts:
 * Recognition accuracy on a best 512 bit punched card is 41.42%
 * Punched cards per specific label in most cases works better or equal than one (global top) punched card
 * Starting from bit length 32 there are cases when all the inputs per specific label of the punched card are unique
-* Test set accuracy increasing almost linearly with the doubling of the punched card bit length up to 512. But after that no improvements (due to no punched cards ranking algorithm except max distinct inputs count)
+* Test set accuracy increasing almost linearly with the doubling of the punched card bit length up to 512. But after that no improvements (due to the lack of punched cards ranking algorithm except max distinct inputs count)
 
 ### Questions to answer:
 * How to rank the punched cards when all the inputs per specific label are unique?
