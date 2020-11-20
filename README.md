@@ -4,7 +4,7 @@
 
 Performing single-shot Fashion-MNIST objects recognition by lookup over the most different sparse input bit sets of the training data (out of 28⋅28⋅8=6272 bits per training sample)
 
-Same algorithm for QMNIST dataset: https://github.com/Petr-Kovalev/punched-cards-qmnist-poc
+Same algorithm applied to the QMNIST dataset [is here](https://github.com/Petr-Kovalev/punched-cards-qmnist-poc)
 
 ### Best result chart:
 ![Preview1](./docs/images/chart.png)
