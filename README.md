@@ -1,6 +1,6 @@
 ### 'Punched cards' proof of concept for Fashion-MNIST
 
-*Object recognition by sparse random binary data lookup: proof of concept*
+*Object recognition by sparse random binary data lookup: proof of concept. Complementary code for [this article](https://petr-kovalev.medium.com/punched-cards-object-recognition-97523a98857b)*
 
 Performing single-shot Fashion-MNIST objects recognition by lookup over the most different sparse input bit sets of the training data (out of 28⋅28⋅8=6272 bits per training sample)
 
