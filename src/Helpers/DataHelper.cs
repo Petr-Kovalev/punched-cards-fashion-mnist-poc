@@ -30,22 +30,26 @@ namespace PunchedCards.Helpers
 
         private static BitArray GetValueBitArray(byte[,] imageData)
         {
-            const byte width = 28;
             const byte height = 28;
+            const byte width = 28;
             const int pixelRepresentationSizeInBits = 8;
 
-            var result = new BitArray(width * height * pixelRepresentationSizeInBits);
+            var result = new BitArray(height * width * pixelRepresentationSizeInBits);
 
-            for (byte i = 0; i < width; i++)
+            for (byte rowIndex = 0; rowIndex < height; rowIndex++)
             {
-                for (byte j = 0; j < height; j++)
+                for (byte columnIndex = 0; columnIndex < width; columnIndex++)
                 {
-                    var startIndex = (i * height + j) * pixelRepresentationSizeInBits;
+                    var startIndex = (rowIndex * width + columnIndex) * pixelRepresentationSizeInBits;
 
                     byte bitIndex = 0;
-                    foreach (var bit in GetPixelRepresentationInBits(imageData[i, j]))
+                    foreach (var bit in GetPixelRepresentationInBits(imageData[rowIndex, columnIndex]))
                     {
-                        result[startIndex + bitIndex] = bit;
+                        if (bit)
+                        {
+                            result[startIndex + bitIndex] = true;
+                        }
+
                         bitIndex++;
                     }
                 }
