@@ -28,7 +28,7 @@ namespace PunchedCards.Helpers
                     BinaryStringsHelper.GetLabelString(image.Label, LabelsCount)));
         }
 
-        internal static BitArray GetValueBitArray(byte[,] imageData)
+        private static BitArray GetValueBitArray(byte[,] imageData)
         {
             const byte width = 28;
             const byte height = 28;
