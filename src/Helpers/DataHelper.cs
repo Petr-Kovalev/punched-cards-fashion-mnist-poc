@@ -44,8 +44,8 @@ namespace PunchedCards.Helpers
         }
 
         private static IEnumerable<int> GetOneIndices(
-            byte[,] imageData, 
-            int height, 
+            byte[,] imageData,
+            int height,
             int width,
             int pixelRepresentationSizeInBits)
         {
