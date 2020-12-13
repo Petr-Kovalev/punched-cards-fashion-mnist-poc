@@ -6,6 +6,8 @@ Performing single-shot Fashion-MNIST objects recognition by lookup over the most
 
 Same algorithm applied to the QMNIST dataset [is here](https://github.com/Petr-Kovalev/punched-cards-qmnist-poc)
 
+Results and program output are from [this code version](https://github.com/Petr-Kovalev/punched-cards-fashion-mnist-poc/tree/2df06be9f29b21fd2f9a574ea43e7c76233f5ab8)
+
 ### Best result chart:
 ![Preview1](./docs/images/chart.png)
 
