@@ -128,3 +128,104 @@ Test results: 4008 correct recognitions of 10000
 
 Press "Enter" to exit the program...
 ```
+
+### Update. Program output from [this code version](https://github.com/Petr-Kovalev/punched-cards-fashion-mnist-poc/tree/b6b3331c11d550f775657de00cde5a82068093cd):
+```
+Punched card bit length: 32
+
+Global top punched card:
+Unique input combinations per punched card (descending): {5998, 5998, 5998, 5991, 5981, 5975, 5775, 5761, 5567, 5279: sum 58323}: total sum 58323
+Training results: 24310 correct recognitions of 60000
+Test results: 3950 correct recognitions of 10000
+
+Top punched cards per label:
+Unique input combinations per punched card (descending): {5937, 5679: sum 11616}, {6000}, {6000}, {5999}, {5998}, {5996}, {5989}, {5988}, {5921}: total sum 59507
+Training results: 16828 correct recognitions of 60000
+Test results: 2877 correct recognitions of 10000
+
+Punched card bit length: 64
+
+Global top punched card:
+Unique input combinations per punched card (descending): {6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 5996, 5995: sum 59991}: total sum 59991
+Training results: 28081 correct recognitions of 60000
+Test results: 4550 correct recognitions of 10000
+
+Top punched cards per label:
+Unique input combinations per punched card (descending): {6000, 6000, 6000, 6000, 6000: sum 30000}, {6000, 6000: sum 12000}, {6000}, {6000}, {5996}: total sum 59996
+Training results: 20891 correct recognitions of 60000
+Test results: 3486 correct recognitions of 10000
+
+Punched card bit length: 128
+
+Global top punched card:
+Unique input combinations per punched card (descending): {6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000: sum 60000}: total sum 60000
+Training results: 26741 correct recognitions of 60000
+Test results: 4374 correct recognitions of 10000
+
+Top punched cards per label:
+Unique input combinations per punched card (descending): {6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000: sum 54000}, {6000}: total sum 60000
+Training results: 32154 correct recognitions of 60000
+Test results: 5152 correct recognitions of 10000
+
+Punched card bit length: 256
+
+Global top punched card:
+Unique input combinations per punched card (descending): {6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000: sum 60000}: total sum 60000
+Training results: 32076 correct recognitions of 60000
+Test results: 5231 correct recognitions of 10000
+
+Top punched cards per label:
+Unique input combinations per punched card (descending): {6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000: sum 60000}: total sum 60000
+Training results: 32076 correct recognitions of 60000
+Test results: 5231 correct recognitions of 10000
+
+Punched card bit length: 512
+
+Global top punched card:
+Unique input combinations per punched card (descending): {6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000: sum 60000}: total sum 60000
+Training results: 34205 correct recognitions of 60000
+Test results: 5591 correct recognitions of 10000
+
+Top punched cards per label:
+Unique input combinations per punched card (descending): {6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000: sum 60000}: total sum 60000
+Training results: 34205 correct recognitions of 60000
+Test results: 5591 correct recognitions of 10000
+
+Punched card bit length: 1024
+
+Global top punched card:
+Unique input combinations per punched card (descending): {6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000: sum 60000}: total sum 60000
+Training results: 33193 correct recognitions of 60000
+Test results: 5418 correct recognitions of 10000
+
+Top punched cards per label:
+Unique input combinations per punched card (descending): {6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000: sum 60000}: total sum 60000
+Training results: 33193 correct recognitions of 60000
+Test results: 5418 correct recognitions of 10000
+
+Punched card bit length: 2048
+
+Global top punched card:
+Unique input combinations per punched card (descending): {6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000: sum 60000}: total sum 60000
+Training results: 33184 correct recognitions of 60000
+Test results: 5378 correct recognitions of 10000
+
+Top punched cards per label:
+Unique input combinations per punched card (descending): {6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000: sum 60000}: total sum 60000
+Training results: 33184 correct recognitions of 60000
+Test results: 5378 correct recognitions of 10000
+
+Punched card bit length: 4096
+
+Global top punched card:
+Unique input combinations per punched card (descending): {6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000: sum 60000}: total sum 60000
+Training results: 33653 correct recognitions of 60000
+Test results: 5476 correct recognitions of 10000
+
+Top punched cards per label:
+Unique input combinations per punched card (descending): {6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000: sum 60000}: total sum 60000
+Training results: 33653 correct recognitions of 60000
+Test results: 5476 correct recognitions of 10000
+
+Press "Enter" to exit the program...
+```
