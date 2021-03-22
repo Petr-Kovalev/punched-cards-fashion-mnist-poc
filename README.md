@@ -2,7 +2,7 @@
 
 *Object recognition by sparse random binary data lookup. Complementary code for [this article](https://petr-kovalev.medium.com/punched-cards-object-recognition-97523a98857b)*
 
-Performing single-shot Fashion-MNIST objects recognition by lookup over the most different sparse input bit sets of the training data (out of 28⋅28⋅8=6272 bits per training sample)
+Performing single-shot Fashion-MNIST objects recognition by lookup over the most different sparse input bit sets of the training data (out of 28⋅28⋅8 = 6272 bits per training sample)
 
 Same algorithm applied to the QMNIST dataset [is here](https://github.com/Petr-Kovalev/punched-cards-qmnist-poc)
 
@@ -151,33 +151,33 @@ Training results: 28081 correct recognitions of 60000
 Test results: 4550 correct recognitions of 10000
 
 Top punched cards per label:
-Unique input combinations per punched card (descending): {6000, 6000, 6000, 6000, 6000: sum 30000}, {6000, 6000: sum 12000}, {6000}, {6000}, {5996}: total sum 59996
-Training results: 20891 correct recognitions of 60000
-Test results: 3486 correct recognitions of 10000
+Unique input combinations per punched card (descending): {6000, 6000, 6000, 6000, 6000, 6000, 6000: sum 42000}, {6000}, {6000}, {5996}: total sum 59996
+Training results: 23097 correct recognitions of 60000
+Test results: 3806 correct recognitions of 10000
 
 Punched card bit length: 128
 
 Global top punched card:
 Unique input combinations per punched card (descending): {6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000: sum 60000}: total sum 60000
-Training results: 26741 correct recognitions of 60000
-Test results: 4374 correct recognitions of 10000
+Training results: 31139 correct recognitions of 60000
+Test results: 5142 correct recognitions of 10000
 
 Top punched cards per label:
 Unique input combinations per punched card (descending): {6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000: sum 54000}, {6000}: total sum 60000
-Training results: 32154 correct recognitions of 60000
-Test results: 5152 correct recognitions of 10000
+Training results: 31996 correct recognitions of 60000
+Test results: 5138 correct recognitions of 10000
 
 Punched card bit length: 256
 
 Global top punched card:
 Unique input combinations per punched card (descending): {6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000: sum 60000}: total sum 60000
-Training results: 32076 correct recognitions of 60000
-Test results: 5231 correct recognitions of 10000
+Training results: 33774 correct recognitions of 60000
+Test results: 5466 correct recognitions of 10000
 
 Top punched cards per label:
 Unique input combinations per punched card (descending): {6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000: sum 60000}: total sum 60000
-Training results: 32076 correct recognitions of 60000
-Test results: 5231 correct recognitions of 10000
+Training results: 33774 correct recognitions of 60000
+Test results: 5466 correct recognitions of 10000
 
 Punched card bit length: 512
 
@@ -195,25 +195,25 @@ Punched card bit length: 1024
 
 Global top punched card:
 Unique input combinations per punched card (descending): {6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000: sum 60000}: total sum 60000
-Training results: 33193 correct recognitions of 60000
-Test results: 5418 correct recognitions of 10000
+Training results: 33968 correct recognitions of 60000
+Test results: 5531 correct recognitions of 10000
 
 Top punched cards per label:
 Unique input combinations per punched card (descending): {6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000: sum 60000}: total sum 60000
-Training results: 33193 correct recognitions of 60000
-Test results: 5418 correct recognitions of 10000
+Training results: 33968 correct recognitions of 60000
+Test results: 5531 correct recognitions of 10000
 
 Punched card bit length: 2048
 
 Global top punched card:
 Unique input combinations per punched card (descending): {6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000: sum 60000}: total sum 60000
-Training results: 33184 correct recognitions of 60000
-Test results: 5378 correct recognitions of 10000
+Training results: 34338 correct recognitions of 60000
+Test results: 5582 correct recognitions of 10000
 
 Top punched cards per label:
 Unique input combinations per punched card (descending): {6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000, 6000: sum 60000}: total sum 60000
-Training results: 33184 correct recognitions of 60000
-Test results: 5378 correct recognitions of 10000
+Training results: 34338 correct recognitions of 60000
+Test results: 5582 correct recognitions of 10000
 
 Punched card bit length: 4096
 
